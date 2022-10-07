@@ -2,7 +2,7 @@ import React from "react";
 import BotCard from "./BotCard";
 
 
-function BotCollection({handleAdd, releaseFromArmy}) {
+function BotCollection({bot, handleAdd, releaseFromArmy}) {
   // Your code here
   return (
     <div className="ui four column grid">
